@@ -17,7 +17,7 @@ export type MapProps = {
 const Map = ({ places }: MapProps) => (
   <MapContainer
     center={[0, 0]}
-    zoom={3}
+    zoom={2}
     style={{ height: '100%', width: '100%' }}
   >
     <TileLayer
