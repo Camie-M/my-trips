@@ -2509,10 +2509,10 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.4.tgz#fcf7205c25dff795ee79af1e30da2c9790808f11"
   integrity sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==
 
-"@types/react@*", "@types/react@^17.0.27":
-  version "17.0.38"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.38.tgz#f24249fefd89357d5fa71f739a686b8d7c7202bd"
-  integrity sha512-SI92X1IA+FMnP3qM5m4QReluXzhcmovhZnLNm3pyeQlooi02qI7sLiepEYqT678uNiyc25XfCqxREFpy3W7YhQ==
+"@types/react@*", "@types/react@^17.0.41":
+  version "17.0.41"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.41.tgz#6e179590d276394de1e357b3f89d05d7d3da8b85"
+  integrity sha512-chYZ9ogWUodyC7VUTRBfblysKLjnohhFY9bGLwvnUFFy48+vB9DikmB3lW0qTFmBcKSzmdglcvkHK71IioOlDA==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -6833,6 +6833,11 @@ next-pwa@^5.3.1:
     workbox-webpack-plugin "^6.4.2"
     workbox-window "^6.4.2"
 
+next-seo@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/next-seo/-/next-seo-5.1.0.tgz#aa9fd6249a11bf93e6da06fa2a6bc89268936edf"
+  integrity sha512-ampuQfNTOi1x+xtRIb6CZGunIo6rQXtMo2Tyu861d5GjJFIwfOXsA4lzCa4+e2rLkyXDyVpavNNUZWa3US9ELw==
+
 next@12.0.10:
   version "12.0.10"
   resolved "https://registry.yarnpkg.com/next/-/next-12.0.10.tgz#fcc4584177418bd777ce157f3165b7ba5e7708f7"
@@ -6855,6 +6860,14 @@ next@12.0.10:
     "@next/swc-win32-arm64-msvc" "12.0.10"
     "@next/swc-win32-ia32-msvc" "12.0.10"
     "@next/swc-win32-x64-msvc" "12.0.10"
+
+nextjs-progressbar@^0.0.14:
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/nextjs-progressbar/-/nextjs-progressbar-0.0.14.tgz#cc2630ee4e9dec598314394bd0fffb0cbfc40444"
+  integrity sha512-AXYXHDN6M52AwFnGqH/vlwyo0gbC9zM7QS/4ryOTI0RUqfze5FJl8uSrxKJMzK6hGFdDeQXcZoWsLGXeCVtTwg==
+  dependencies:
+    nprogress "^0.2.0"
+    prop-types "^15.7.2"
 
 no-case@^3.0.4:
   version "3.0.4"
@@ -6928,6 +6941,11 @@ npm-run-path@^4.0.1:
   integrity sha512-S48WzZW777zhNIrn7gxOlISNAqi9ZC/uQFnRdbeIHhZhCA6UqpkOT8T1G7BvfdgP4Er8gF4sUbaS0i7QvIfCWw==
   dependencies:
     path-key "^3.0.0"
+
+nprogress@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/nprogress/-/nprogress-0.2.0.tgz#cb8f34c53213d895723fcbab907e9422adbcafb1"
+  integrity sha1-y480xTIT2JVyP8urkH6UIq28r7E=
 
 nullthrows@^1.1.1:
   version "1.1.1"
